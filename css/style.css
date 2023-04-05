@@ -1,0 +1,203 @@
+body
+{
+    font-family: 'Heebo';
+    font-size: 16px;
+}
+.navbar
+{
+  color: white;
+
+}
+.nav-item
+{
+    margin-left: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-item link:hover
+{
+    text-transform: uppercase;
+    color: white;
+    transition: all .5s;
+}
+
+.sign .btn-right
+{
+  margin-left: 10px;
+  border-radius: 20px 0px;
+}
+.sign .btn-left
+{
+  margin-left: 10px;
+  border-radius: 20px 0px;
+  background-color: white;
+  color: #007bff;
+}
+
+.sign .btn-right:hover
+{
+  color: white;
+  transition: all .5s;
+}
+.sign .btn-left:hover
+{
+  color: white;
+  background-color: #007bff;
+  transition: all .5s;
+}
+/*header*/
+header
+{
+    height: 85vh;
+}
+.left .b1 
+{
+ margin-top: 0px;
+}
+.left .b2
+{
+  margin-bottom: 0px;
+}
+.right h1
+{
+   color: #7e4c9c;
+   margin-top: 150px;
+
+}
+.right p
+{
+   color: #7e4c9c;
+}
+.right a:link , .right a:visited
+{
+   background-color: #7e4c9c;
+   color: white;
+   border-radius: 20px 0px;
+}
+.right a:hover , .right a:active
+{
+   background-color: #7e4c9c;
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+   border-radius: 20px 0px;
+}
+#sec1
+{
+  height: 100vh;
+  background-color: #007bff;
+}
+#sec1 h2
+{
+  margin-top: 20px;
+  color: white;
+}
+#sec1
+{
+   height: 100vh;
+}
+#sec1 .pp
+{
+  font-size: 16px;
+  color: white;
+  
+}
+#sec2
+{
+  height: 100vh;
+  background-image: url(../images/wavy3.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plan-top
+{
+  display: flex;
+}
+.plan-top i, h5, p
+{
+    color: #7e4c9c;
+}
+#sec2 a:link, a:visited
+{
+  background-color: #7e4c9c;
+  color: white;
+  border-radius: 30px;
+}
+#sec2 a:hover, a:active
+{
+  background-color: #007bff;
+  color: white;
+  transition: all .5s;
+}
+
+@keyframes move
+{
+  0%
+  {
+    transform: translate(0);
+  }
+  0%
+  {
+    transform: translate(1250px);
+  }
+}
+.c1
+{
+  animation: move 10s ease infinite  alternate-reverse ;
+}
+/*sec3*/
+#sec3
+{
+  height: 100vh;
+}
+.about-clinic
+{
+  margin-top: 100px;
+}
+/*sec4*/
+#sec4
+{
+  height: 70vh;
+  background-image: url(../images/wavegray.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.partners
+{
+   margin-top: 30px;
+}
+
+#sec5
+{
+  height: 80vh;
+ background-image: linear-gradient(#2b82e7,#76c6fa,#5eb5f7);
+}
+.get-started
+{
+  margin-top: 100px;
+}
+.get-started a:link , .get-started a:visited
+{
+  border-radius: 30px;
+  background-color: white;
+  color: #007bff;
+}
+.get-started a:hover , .get-started a:active
+{
+ background-color: #007bff;
+ color: white;
+ transition: all .5s;
+}
+/*footer*/
+footer
+{
+  height: 40vh;
+  background-image: url(../images/wavegray.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
